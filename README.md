@@ -1,4 +1,4 @@
-# Laser Defender
+# :space_invader: Laser Defender :space_invader:
 
 Single level, endless play where player shoots enemies for points until health reaches zero and finally game over
  
