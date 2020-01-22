@@ -1,4 +1,6 @@
 # Laser Defender
+
+Single level, endless play where player shoots enemies for points until health reaches zero and finally game over
  
 ## :video_game: Game Design
 
@@ -14,7 +16,3 @@
 **Theme:**
 
 - Space Wars
-
-**Core game loop:**
-
-> Single level, endless play where player shoots enemies for points until health reaches zero and finally game over
