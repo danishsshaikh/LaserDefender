@@ -2,10 +2,11 @@
  
 ## Game Design
 
-Player Experience :
-Frantic
+**Player Experience:**
 
- Core Mechanic :
+- Frantic
 
-Shoot enemies
-Dodge bullets
+**Core Mechanic:**
+
+- Shoot Enemies
+- Dodge Bullets
