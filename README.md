@@ -1,6 +1,6 @@
-# LaserDefender
+# Laser Defender
  
-## Game Design
+## :video_game: Game Design
 
 **Player Experience:**
 
