@@ -19,10 +19,13 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
+        //Movement for X
         var deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
         var newXPos = transform.position.x + deltaX;
+        //Movement for Y
         var deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         var newYPos = transform.position.y + deltaY;
+        // X and Y
         transform.position = new Vector2(newXPos, newYPos);    
     }
 }
