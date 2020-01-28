@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
         //Movement for Y
         var deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 
-        var newXPos = transform.position.x + deltaX;
+        var newXPos = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax);
         var newYPos = transform.position.y + deltaY;
         // X and Y
         transform.position = new Vector2(newXPos, newYPos);    
