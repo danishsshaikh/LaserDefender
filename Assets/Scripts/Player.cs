@@ -6,7 +6,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 10f;
-    // Start is called before the first frame update
+    float xMin;
+    float xMax;
+
     void Start()
     {
         SetUpMoveBoundaries();
@@ -14,7 +16,9 @@ public class Player : MonoBehaviour
 
     private void SetUpMoveBoundaries()
     {
-        throw new NotImplementedException();
+        Camera gameCamera = Camera.main;
+        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
+        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
     }
 
     // Update is called once per frame
