@@ -21,3 +21,4 @@ Single level, endless play where player shoots enemies for points until health r
 
 - [KENNEY](https://kenney.nl/)
 
+- [Open Game Art](https://opengameart.org/)
