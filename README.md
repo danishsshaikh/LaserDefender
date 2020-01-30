@@ -21,3 +21,10 @@ Single level, endless play where player shoots enemies for points until health r
 
 - [KENNEY](https://kenney.nl/)
 
+- [Open Game Art](https://opengameart.org/)
+
+- [NES Shooter Music](https://opengameart.org/content/nes-shooter-music-5-tracks-3-jingles)
+
+- [Freesound](https://freesound.org/)
+
+- [Quaternions](https://www.youtube.com/watch?v=3BR8tK-LuB0)
