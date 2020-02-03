@@ -18,6 +18,19 @@ public class Player : MonoBehaviour
         SetUpMoveBoundaries();
     }
 
+
+    // Update is called once per frame
+    void Update()
+    {
+        Move();
+        Fire();
+    }
+
+    private void Fire()
+    {
+        throw new NotImplementedException();
+    }
+
     private void SetUpMoveBoundaries()
     {
         Camera gameCamera = Camera.main;
@@ -26,12 +39,6 @@ public class Player : MonoBehaviour
 
         yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
         yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Move();
     }
 
     private void Move()
