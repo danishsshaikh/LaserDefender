@@ -28,7 +28,10 @@ public class Player : MonoBehaviour
 
     private void Fire()
     {
-        if(Input.GetButtonDown())
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(laserPrefab, transform.position, Quaternion.identity);
+        }
     }
 
     private void SetUpMoveBoundaries()
