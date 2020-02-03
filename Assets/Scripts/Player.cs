@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
     private void Fire()
     {
-        throw new NotImplementedException();
+        if(Input.GetButtonDown())
     }
 
     private void SetUpMoveBoundaries()
