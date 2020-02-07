@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     {
         Debug.Log("First Message sent, BOSS");
         yield return new WaitForSeconds(3);
+        Debug.Log("Second MEssage!");
     }
 
     // Update is called once per frame
