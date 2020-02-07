@@ -17,15 +17,9 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
-        //StartCoroutine(PrintAndWait());
     }
 
-    //IEnumerator PrintAndWait()
-    //{
-    //    Debug.Log("First Message sent, BOSS");
-    //    yield return new WaitForSeconds(3);
-    //    Debug.Log("Second MEssage!"); 
-    //}
+   
 
     // Update is called once per frame
     void Update()
