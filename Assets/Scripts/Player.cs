@@ -17,8 +17,13 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
+
     }
 
+    IEnumerator PringAndWait()
+    {
+        Debug.Log("First Message sent, BOSS");
+    }
 
     // Update is called once per frame
     void Update()
