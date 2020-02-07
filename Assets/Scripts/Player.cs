@@ -39,11 +39,14 @@ public class Player : MonoBehaviour
 
     IEnumerator FireContinously()
     {
-        GameObject laser =
-                Instantiate(laserPrefab, transform.position, Quaternion.identity)
-                as GameObject;
-        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
-        yield return new WaitForSeconds(projectileFiringPeriod);
+        while (true)
+        {
+            GameObject laser =
+                    Instantiate(laserPrefab, transform.position, Quaternion.identity)
+                    as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            yield return new WaitForSeconds(projectileFiringPeriod);
+        }
     }
 
     private void SetUpMoveBoundaries()
