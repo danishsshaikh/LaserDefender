@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileFiringPeriod = 0.1f;
 
+    Coroutine firingCoroutine;
+
     float xMin;
     float xMax;
     float yMin;
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour
         Fire();
     }
 
-    private void Fire()
+    private void Fire( )
     {
         if (Input.GetButtonDown("Fire1"))
         {
