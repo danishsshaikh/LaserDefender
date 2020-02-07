@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     IEnumerator PringAndWait()
     {
         Debug.Log("First Message sent, BOSS");
+        yield return new WaitForSeconds(3);
     }
 
     // Update is called once per frame
