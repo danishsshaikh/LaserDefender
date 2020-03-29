@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114137568193863110}
   - component: {fileID: 3192389946162595901}
   - component: {fileID: 114786193103604870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Orangela
   m_TagString: Untagged
   m_Icon: {fileID: 0}
