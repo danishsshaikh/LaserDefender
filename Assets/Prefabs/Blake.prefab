@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114031988042267034}
   - component: {fileID: 8270549996784010875}
   - component: {fileID: 114457840897255344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Blake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,3 +123,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  showCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  projectileSpeed: 10
+  projectile: {fileID: 8686142318356493741, guid: 359b52abf74f139479746f9e072b440f,
+    type: 3}
