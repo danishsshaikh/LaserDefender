@@ -129,3 +129,6 @@ MonoBehaviour:
   projectileSpeed: 10
   projectile: {fileID: 8686142318356493741, guid: 359b52abf74f139479746f9e072b440f,
     type: 3}
+  deathVFX: {fileID: 7516281809846275607, guid: a89db894fd430134893135c41ab56880,
+    type: 3}
+  durationOfExplosion: 1
